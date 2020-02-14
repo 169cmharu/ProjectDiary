@@ -26,8 +26,8 @@ Partial Class Form1
         Me.createEntry = New System.Windows.Forms.Button()
         Me.viewEntries = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.lbl_time = New System.Windows.Forms.Label()
+        Me.lbl_date = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'createEntry
@@ -67,29 +67,33 @@ Partial Class Form1
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "How have you been?"
         '
-        'Label2
+        'lbl_time
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("KG HAPPY Solid", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label2.Location = New System.Drawing.Point(313, 63)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(153, 44)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "09:12 PM"
+        Me.lbl_time.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lbl_time.BackColor = System.Drawing.Color.Transparent
+        Me.lbl_time.Font = New System.Drawing.Font("KG HAPPY Solid", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_time.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.lbl_time.Location = New System.Drawing.Point(6, 63)
+        Me.lbl_time.Name = "lbl_time"
+        Me.lbl_time.Size = New System.Drawing.Size(766, 44)
+        Me.lbl_time.TabIndex = 3
+        Me.lbl_time.Text = "09:12 PM"
+        Me.lbl_time.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label3
+        'lbl_date
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("KG HAPPY Solid", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label3.Location = New System.Drawing.Point(349, 32)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(79, 31)
-        Me.Label3.TabIndex = 4
-        Me.Label3.Text = "Jan 31"
+        Me.lbl_date.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lbl_date.BackColor = System.Drawing.Color.Transparent
+        Me.lbl_date.Font = New System.Drawing.Font("KG HAPPY Solid", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_date.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.lbl_date.Location = New System.Drawing.Point(14, 38)
+        Me.lbl_date.Name = "lbl_date"
+        Me.lbl_date.Size = New System.Drawing.Size(758, 31)
+        Me.lbl_date.TabIndex = 4
+        Me.lbl_date.Text = "Jan 31"
+        Me.lbl_date.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Form1
         '
@@ -97,8 +101,8 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(784, 411)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.lbl_date)
+        Me.Controls.Add(Me.lbl_time)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.viewEntries)
         Me.Controls.Add(Me.createEntry)
@@ -112,6 +116,6 @@ Partial Class Form1
     Friend WithEvents createEntry As Button
     Friend WithEvents viewEntries As Button
     Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
+    Friend WithEvents lbl_time As Label
+    Friend WithEvents lbl_date As Label
 End Class
