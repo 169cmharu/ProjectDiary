@@ -106,6 +106,8 @@ Partial Class Dashboard
         Me.btnHamburger.BackColor = System.Drawing.Color.Transparent
         Me.btnHamburger.BackgroundImage = CType(resources.GetObject("btnHamburger.BackgroundImage"), System.Drawing.Image)
         Me.btnHamburger.FlatAppearance.BorderSize = 0
+        Me.btnHamburger.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.btnHamburger.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.btnHamburger.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnHamburger.Location = New System.Drawing.Point(25, 25)
         Me.btnHamburger.Name = "btnHamburger"
