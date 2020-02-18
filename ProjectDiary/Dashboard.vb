@@ -83,4 +83,28 @@
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
         Application.Exit()
     End Sub
+
+    Private Sub createEntry_MouseDown(sender As Object, e As MouseEventArgs) Handles createEntry.MouseDown
+        With createEntry
+            .BackgroundImage = My.Resources.big_button_clicked
+        End With
+    End Sub
+
+    Private Sub createEntry_MouseUp(sender As Object, e As MouseEventArgs) Handles createEntry.MouseUp
+        With createEntry
+            .BackgroundImage = My.Resources.big_button
+        End With
+    End Sub
+
+    Private Sub viewEntries_MouseDown(sender As Object, e As MouseEventArgs) Handles viewEntries.MouseDown
+        With viewEntries
+            .BackgroundImage = My.Resources.big_button_clicked
+        End With
+    End Sub
+
+    Private Sub viewEntries_MouseUp(sender As Object, e As MouseEventArgs) Handles viewEntries.MouseUp
+        With viewEntries
+            .BackgroundImage = My.Resources.big_button
+        End With
+    End Sub
 End Class

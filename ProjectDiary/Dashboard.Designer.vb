@@ -35,28 +35,36 @@ Partial Class Dashboard
         '
         'createEntry
         '
-        Me.createEntry.BackColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(217, Byte), Integer))
+        Me.createEntry.BackColor = System.Drawing.Color.Transparent
+        Me.createEntry.BackgroundImage = Global.ProjectDiary.My.Resources.Resources.big_button
+        Me.createEntry.Cursor = System.Windows.Forms.Cursors.Hand
         Me.createEntry.FlatAppearance.BorderSize = 0
+        Me.createEntry.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.createEntry.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.createEntry.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.createEntry.Font = New System.Drawing.Font("KG HAPPY Solid", 16.0!, System.Drawing.FontStyle.Bold)
+        Me.createEntry.Font = New System.Drawing.Font("KG HAPPY Solid", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.createEntry.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.createEntry.Location = New System.Drawing.Point(256, 240)
         Me.createEntry.Name = "createEntry"
-        Me.createEntry.Size = New System.Drawing.Size(125, 125)
+        Me.createEntry.Size = New System.Drawing.Size(120, 119)
         Me.createEntry.TabIndex = 0
         Me.createEntry.Text = "Create Entry"
         Me.createEntry.UseVisualStyleBackColor = False
         '
         'viewEntries
         '
-        Me.viewEntries.BackColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(217, Byte), Integer))
+        Me.viewEntries.BackColor = System.Drawing.Color.Transparent
+        Me.viewEntries.BackgroundImage = Global.ProjectDiary.My.Resources.Resources.big_button
+        Me.viewEntries.Cursor = System.Windows.Forms.Cursors.Hand
         Me.viewEntries.FlatAppearance.BorderSize = 0
+        Me.viewEntries.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.viewEntries.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.viewEntries.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.viewEntries.Font = New System.Drawing.Font("KG HAPPY Solid", 16.0!)
+        Me.viewEntries.Font = New System.Drawing.Font("KG HAPPY Solid", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.viewEntries.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.viewEntries.Location = New System.Drawing.Point(406, 240)
         Me.viewEntries.Name = "viewEntries"
-        Me.viewEntries.Size = New System.Drawing.Size(125, 125)
+        Me.viewEntries.Size = New System.Drawing.Size(120, 119)
         Me.viewEntries.TabIndex = 1
         Me.viewEntries.Text = "View Entries"
         Me.viewEntries.UseVisualStyleBackColor = False
@@ -68,9 +76,9 @@ Partial Class Dashboard
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("KG HAPPY Solid", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label1.Location = New System.Drawing.Point(20, 143)
+        Me.Label1.Location = New System.Drawing.Point(2, 143)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(752, 70)
+        Me.Label1.Size = New System.Drawing.Size(795, 70)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "How have you been?"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -82,9 +90,9 @@ Partial Class Dashboard
         Me.lbl_time.BackColor = System.Drawing.Color.Transparent
         Me.lbl_time.Font = New System.Drawing.Font("KG HAPPY Solid", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_time.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.lbl_time.Location = New System.Drawing.Point(6, 79)
+        Me.lbl_time.Location = New System.Drawing.Point(3, 79)
         Me.lbl_time.Name = "lbl_time"
-        Me.lbl_time.Size = New System.Drawing.Size(766, 44)
+        Me.lbl_time.Size = New System.Drawing.Size(795, 44)
         Me.lbl_time.TabIndex = 3
         Me.lbl_time.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -95,9 +103,9 @@ Partial Class Dashboard
         Me.lbl_date.BackColor = System.Drawing.Color.Transparent
         Me.lbl_date.Font = New System.Drawing.Font("KG HAPPY Solid", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_date.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.lbl_date.Location = New System.Drawing.Point(6, 58)
+        Me.lbl_date.Location = New System.Drawing.Point(3, 58)
         Me.lbl_date.Name = "lbl_date"
-        Me.lbl_date.Size = New System.Drawing.Size(766, 31)
+        Me.lbl_date.Size = New System.Drawing.Size(795, 31)
         Me.lbl_date.TabIndex = 4
         Me.lbl_date.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -105,6 +113,7 @@ Partial Class Dashboard
         '
         Me.btnHamburger.BackColor = System.Drawing.Color.Transparent
         Me.btnHamburger.BackgroundImage = CType(resources.GetObject("btnHamburger.BackgroundImage"), System.Drawing.Image)
+        Me.btnHamburger.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnHamburger.FlatAppearance.BorderSize = 0
         Me.btnHamburger.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.btnHamburger.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
@@ -119,11 +128,12 @@ Partial Class Dashboard
         '
         Me.btnClose.BackColor = System.Drawing.Color.Transparent
         Me.btnClose.BackgroundImage = Global.ProjectDiary.My.Resources.Resources.Close
+        Me.btnClose.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnClose.FlatAppearance.BorderSize = 0
         Me.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnClose.Location = New System.Drawing.Point(740, 23)
+        Me.btnClose.Location = New System.Drawing.Point(755, 25)
         Me.btnClose.Name = "btnClose"
         Me.btnClose.Size = New System.Drawing.Size(20, 20)
         Me.btnClose.TabIndex = 6
@@ -133,11 +143,12 @@ Partial Class Dashboard
         '
         Me.btnMinimize.BackColor = System.Drawing.Color.Transparent
         Me.btnMinimize.BackgroundImage = Global.ProjectDiary.My.Resources.Resources.Minimize
+        Me.btnMinimize.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnMinimize.FlatAppearance.BorderSize = 0
         Me.btnMinimize.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.btnMinimize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMinimize.Location = New System.Drawing.Point(710, 23)
+        Me.btnMinimize.Location = New System.Drawing.Point(725, 25)
         Me.btnMinimize.Name = "btnMinimize"
         Me.btnMinimize.Size = New System.Drawing.Size(20, 20)
         Me.btnMinimize.TabIndex = 7
@@ -148,7 +159,7 @@ Partial Class Dashboard
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.ProjectDiary.My.Resources.Resources.projectDiaryBG
-        Me.ClientSize = New System.Drawing.Size(784, 436)
+        Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.btnMinimize)
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.btnHamburger)
@@ -158,6 +169,7 @@ Partial Class Dashboard
         Me.Controls.Add(Me.viewEntries)
         Me.Controls.Add(Me.createEntry)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Dashboard"
         Me.Text = "My Day"
         Me.ResumeLayout(False)

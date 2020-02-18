@@ -27,6 +27,16 @@ ProjectDiary
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:ProjectDiary.My.Resources.Resources.big_button">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.big_button_clicked">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ProjectDiary.My.Resources.Resources.Close">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -57,7 +67,22 @@ ProjectDiary
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:ProjectDiary.My.Resources.Resources.Line">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ProjectDiary.My.Resources.Resources.Login">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.long_button">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.long_button_clicked">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
