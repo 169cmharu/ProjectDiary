@@ -10,3 +10,4 @@ C:\Users\4\source\repos\ProjectDiary\ProjectDiary\obj\Debug\ProjectDiary.xml
 C:\Users\4\source\repos\ProjectDiary\ProjectDiary\obj\Debug\ProjectDiary.pdb
 C:\Users\4\source\repos\ProjectDiary\ProjectDiary\obj\Debug\ProjectDiary.Dashboard.resources
 C:\Users\4\source\repos\ProjectDiary\ProjectDiary\obj\Debug\ProjectDiary.Login.resources
+C:\Users\4\source\repos\ProjectDiary\ProjectDiary\obj\Debug\ProjectDiary.Registration.resources

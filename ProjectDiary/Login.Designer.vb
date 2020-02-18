@@ -179,6 +179,7 @@ Partial Class Login
         '
         Me.btnLogin.BackColor = System.Drawing.Color.White
         Me.btnLogin.BackgroundImage = Global.ProjectDiary.My.Resources.Resources.long_button
+        Me.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnLogin.FlatAppearance.BorderSize = 0
         Me.btnLogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
         Me.btnLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
@@ -236,6 +237,7 @@ Partial Class Login
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Login"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
