@@ -3,9 +3,9 @@ C:\Users\4\source\repos\ProjectDiary\ProjectDiary\bin\Debug\ProjectDiary.exe
 C:\Users\4\source\repos\ProjectDiary\ProjectDiary\bin\Debug\ProjectDiary.pdb
 C:\Users\4\source\repos\ProjectDiary\ProjectDiary\bin\Debug\ProjectDiary.xml
 C:\Users\4\source\repos\ProjectDiary\ProjectDiary\obj\Debug\ProjectDiary.vbprojAssemblyReference.cache
-C:\Users\4\source\repos\ProjectDiary\ProjectDiary\obj\Debug\ProjectDiary.Form1.resources
 C:\Users\4\source\repos\ProjectDiary\ProjectDiary\obj\Debug\ProjectDiary.Resources.resources
 C:\Users\4\source\repos\ProjectDiary\ProjectDiary\obj\Debug\ProjectDiary.vbproj.GenerateResource.cache
 C:\Users\4\source\repos\ProjectDiary\ProjectDiary\obj\Debug\ProjectDiary.exe
 C:\Users\4\source\repos\ProjectDiary\ProjectDiary\obj\Debug\ProjectDiary.xml
 C:\Users\4\source\repos\ProjectDiary\ProjectDiary\obj\Debug\ProjectDiary.pdb
+C:\Users\4\source\repos\ProjectDiary\ProjectDiary\obj\Debug\ProjectDiary.Dashboard.resources

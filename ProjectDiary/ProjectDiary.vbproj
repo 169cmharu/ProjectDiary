@@ -73,11 +73,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="Dashboard.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -97,8 +97,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -118,6 +118,42 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon ionic-ios-menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\afternoon_bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\early_bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\projectDiaryBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_clicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_clicked.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

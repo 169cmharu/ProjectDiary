@@ -22,5 +22,70 @@ ProjectDiary
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:ProjectDiary.My.Resources.Resources.afternoon_bg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.Close">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.close_clicked">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.close_clicked1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.close_hover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.early_bg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.Icon_ionic_ios_menu">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.Login">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.Minimize">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.minimize_clicked">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.minimize_hover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.projectDiaryBG">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.Rectangle_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>
