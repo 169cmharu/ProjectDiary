@@ -62,6 +62,36 @@ ProjectDiary
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:ProjectDiary.My.Resources.Resources.entries_active">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.entries_clicked">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.entries_inactive">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.home_active">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.home_clicked">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.home_inactive">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ProjectDiary.My.Resources.Resources.Icon_ionic_ios_menu">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -73,6 +103,21 @@ ProjectDiary
 </summary>
 </member>
 <member name="P:ProjectDiary.My.Resources.Resources.Login">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.logout_active">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.logout_clicked">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.logout_inactive">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -102,12 +147,42 @@ ProjectDiary
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:ProjectDiary.My.Resources.Resources.profile_active">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.profile_clicked">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.profile_inactive">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ProjectDiary.My.Resources.Resources.projectDiaryBG">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectDiary.My.Resources.Resources.Rectangle_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.settings_active">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.settings_clicked">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.settings_inactive">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

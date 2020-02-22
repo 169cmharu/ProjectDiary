@@ -1,11 +1,5 @@
 ﻿Public Class Dashboard
-    Dim WithEvents aTimer As New System.Windows.Forms.Timer
-
-    Private Sub aTimer_Tick(ByVal sender As Object,
-                            ByVal e As System.EventArgs) Handles aTimer.Tick
-        lbl_date.Text = DateTime.Now.ToString("MMM dd, yyyy")
-        lbl_time.Text = DateTime.Now.ToString("h:mm tt")
-
+    Private Sub Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Change Background Image According to Current Time'
         Dim current As Date = Date.Now
         Dim morning As New Date(current.Year, current.Month, current.Day, 6, 0, 0)
@@ -19,6 +13,22 @@
             Me.BackgroundImage = My.Resources.projectDiaryBG
         End If
 
+        sidebar.Visible = False
+        sideBtnClose.Visible = False
+        sideBtnHome.Visible = False
+        sideBtnProfile.Visible = False
+        sideBtnEntries.Visible = False
+        sideBtnSettings.Visible = False
+        sideBtnLogout.Visible = False
+        btnHamburger.Visible = True
+
+    End Sub
+    Dim WithEvents aTimer As New System.Windows.Forms.Timer
+
+    Private Sub aTimer_Tick(ByVal sender As Object,
+                            ByVal e As System.EventArgs) Handles aTimer.Tick
+        lbl_date.Text = DateTime.Now.ToString("MMM dd, yyyy")
+        lbl_time.Text = DateTime.Now.ToString("h:mm tt")
 
     End Sub
 
@@ -106,5 +116,27 @@
         With viewEntries
             .BackgroundImage = My.Resources.big_button
         End With
+    End Sub
+
+    Private Sub sideBtnClose_Click(sender As Object, e As EventArgs) Handles sideBtnClose.Click
+        sidebar.Visible = False
+        sideBtnClose.Visible = False
+        sideBtnHome.Visible = False
+        sideBtnProfile.Visible = False
+        sideBtnEntries.Visible = False
+        sideBtnSettings.Visible = False
+        sideBtnLogout.Visible = False
+        btnHamburger.Visible = True
+    End Sub
+
+    Private Sub btnHamburger_Click(sender As Object, e As EventArgs) Handles btnHamburger.Click
+        sidebar.Visible = True
+        sideBtnClose.Visible = True
+        sideBtnHome.Visible = True
+        sideBtnProfile.Visible = True
+        sideBtnEntries.Visible = True
+        sideBtnSettings.Visible = True
+        sideBtnLogout.Visible = True
+        btnHamburger.Visible = False
     End Sub
 End Class

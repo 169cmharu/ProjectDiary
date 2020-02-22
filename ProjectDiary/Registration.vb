@@ -1,9 +1,5 @@
 ﻿Public Class Registration
-    Dim WithEvents aTimer As New System.Windows.Forms.Timer
-
-    Private Sub aTimer_Tick(ByVal sender As Object,
-                            ByVal e As System.EventArgs) Handles aTimer.Tick
-
+    Private Sub Registration_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Change Background Image According to Current Time'
         Dim current As Date = Date.Now
         Dim morning As New Date(current.Year, current.Month, current.Day, 6, 0, 0)
@@ -16,14 +12,6 @@
         ElseIf (current > evening) And (current < morning) Then
             Me.BackgroundImage = My.Resources.projectDiaryBG
         End If
-
-
-    End Sub
-
-    Private Sub Form_Shown(ByVal sender As Object,
-                            ByVal e As System.EventArgs) Handles MyBase.Shown
-        aTimer.Interval = 250
-        aTimer.Start()
     End Sub
     Private Sub btnClose_MouseHover(sender As Object, e As EventArgs) Handles btnClose.MouseHover
         With btnClose

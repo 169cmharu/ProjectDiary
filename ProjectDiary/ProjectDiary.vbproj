@@ -188,5 +188,50 @@
   <ItemGroup>
     <None Include="Resources\Line.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entries_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entries_clicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entries_inactive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_clicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_inactive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_clicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_inactive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile_clicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile_inactive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_clicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_inactive.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
