@@ -139,4 +139,8 @@
         sideBtnLogout.Visible = True
         btnHamburger.Visible = False
     End Sub
+
+    Private Sub createEntry_Click(sender As Object, e As EventArgs) Handles createEntry.Click
+
+    End Sub
 End Class

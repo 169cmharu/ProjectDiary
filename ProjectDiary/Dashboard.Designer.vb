@@ -38,7 +38,10 @@ Partial Class Dashboard
         Me.btnHamburger = New System.Windows.Forms.Button()
         Me.sideBtnClose = New System.Windows.Forms.Button()
         Me.sidebar = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.txtUsername = New System.Windows.Forms.Label()
         CType(Me.sidebar, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'createEntry
@@ -156,7 +159,7 @@ Partial Class Dashboard
         Me.sideBtnHome.Font = New System.Drawing.Font("KG HAPPY Solid", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
         Me.sideBtnHome.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(167, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.sideBtnHome.Image = Global.ProjectDiary.My.Resources.Resources.home_active
-        Me.sideBtnHome.Location = New System.Drawing.Point(-1, 164)
+        Me.sideBtnHome.Location = New System.Drawing.Point(-1, 175)
         Me.sideBtnHome.Name = "sideBtnHome"
         Me.sideBtnHome.Size = New System.Drawing.Size(200, 35)
         Me.sideBtnHome.TabIndex = 0
@@ -174,7 +177,7 @@ Partial Class Dashboard
         Me.sideBtnProfile.Font = New System.Drawing.Font("KG HAPPY Solid", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
         Me.sideBtnProfile.ForeColor = System.Drawing.Color.FromArgb(CType(CType(112, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(112, Byte), Integer))
         Me.sideBtnProfile.Image = Global.ProjectDiary.My.Resources.Resources.profile_inactive
-        Me.sideBtnProfile.Location = New System.Drawing.Point(-1, 214)
+        Me.sideBtnProfile.Location = New System.Drawing.Point(-1, 225)
         Me.sideBtnProfile.Name = "sideBtnProfile"
         Me.sideBtnProfile.Size = New System.Drawing.Size(200, 35)
         Me.sideBtnProfile.TabIndex = 1
@@ -192,7 +195,7 @@ Partial Class Dashboard
         Me.sideBtnEntries.Font = New System.Drawing.Font("KG HAPPY Solid", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
         Me.sideBtnEntries.ForeColor = System.Drawing.Color.FromArgb(CType(CType(112, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(112, Byte), Integer))
         Me.sideBtnEntries.Image = Global.ProjectDiary.My.Resources.Resources.entries_inactive
-        Me.sideBtnEntries.Location = New System.Drawing.Point(-1, 264)
+        Me.sideBtnEntries.Location = New System.Drawing.Point(-1, 275)
         Me.sideBtnEntries.Name = "sideBtnEntries"
         Me.sideBtnEntries.Size = New System.Drawing.Size(200, 35)
         Me.sideBtnEntries.TabIndex = 2
@@ -210,7 +213,7 @@ Partial Class Dashboard
         Me.sideBtnSettings.Font = New System.Drawing.Font("KG HAPPY Solid", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
         Me.sideBtnSettings.ForeColor = System.Drawing.Color.FromArgb(CType(CType(112, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(112, Byte), Integer))
         Me.sideBtnSettings.Image = Global.ProjectDiary.My.Resources.Resources.settings_inactive
-        Me.sideBtnSettings.Location = New System.Drawing.Point(-1, 314)
+        Me.sideBtnSettings.Location = New System.Drawing.Point(-1, 325)
         Me.sideBtnSettings.Name = "sideBtnSettings"
         Me.sideBtnSettings.Size = New System.Drawing.Size(200, 35)
         Me.sideBtnSettings.TabIndex = 3
@@ -228,7 +231,7 @@ Partial Class Dashboard
         Me.sideBtnLogout.Font = New System.Drawing.Font("KG HAPPY Solid", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
         Me.sideBtnLogout.ForeColor = System.Drawing.Color.FromArgb(CType(CType(112, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(112, Byte), Integer))
         Me.sideBtnLogout.Image = Global.ProjectDiary.My.Resources.Resources.logout_inactive
-        Me.sideBtnLogout.Location = New System.Drawing.Point(-1, 364)
+        Me.sideBtnLogout.Location = New System.Drawing.Point(-1, 370)
         Me.sideBtnLogout.Name = "sideBtnLogout"
         Me.sideBtnLogout.Size = New System.Drawing.Size(200, 35)
         Me.sideBtnLogout.TabIndex = 4
@@ -277,12 +280,37 @@ Partial Class Dashboard
         Me.sidebar.TabIndex = 8
         Me.sidebar.TabStop = False
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox1.InitialImage = CType(resources.GetObject("PictureBox1.InitialImage"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(56, 50)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(75, 75)
+        Me.PictureBox1.TabIndex = 9
+        Me.PictureBox1.TabStop = False
+        '
+        'txtUsername
+        '
+        Me.txtUsername.AutoSize = True
+        Me.txtUsername.BackColor = System.Drawing.Color.White
+        Me.txtUsername.Font = New System.Drawing.Font("KG HAPPY Solid", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUsername.ForeColor = System.Drawing.Color.FromArgb(CType(CType(112, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(112, Byte), Integer))
+        Me.txtUsername.Location = New System.Drawing.Point(36, 130)
+        Me.txtUsername.Name = "txtUsername"
+        Me.txtUsername.Size = New System.Drawing.Size(120, 26)
+        Me.txtUsername.TabIndex = 10
+        Me.txtUsername.Text = "169cmharu"
+        '
         'Dashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.ProjectDiary.My.Resources.Resources.projectDiaryBG
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.txtUsername)
         Me.Controls.Add(Me.sideBtnClose)
         Me.Controls.Add(Me.btnMinimize)
         Me.Controls.Add(Me.btnClose)
@@ -304,7 +332,9 @@ Partial Class Dashboard
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "My Day"
         CType(Me.sidebar, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -323,4 +353,6 @@ Partial Class Dashboard
     Friend WithEvents btnHamburger As Button
     Friend WithEvents sideBtnClose As Button
     Friend WithEvents sidebar As PictureBox
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents txtUsername As Label
 End Class

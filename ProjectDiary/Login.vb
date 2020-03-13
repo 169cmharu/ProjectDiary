@@ -111,4 +111,5 @@
         Call New Registration().Show()
         Close()
     End Sub
+
 End Class

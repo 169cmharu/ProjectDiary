@@ -11,3 +11,4 @@ C:\Users\4\source\repos\ProjectDiary\ProjectDiary\obj\Debug\ProjectDiary.pdb
 C:\Users\4\source\repos\ProjectDiary\ProjectDiary\obj\Debug\ProjectDiary.Dashboard.resources
 C:\Users\4\source\repos\ProjectDiary\ProjectDiary\obj\Debug\ProjectDiary.Login.resources
 C:\Users\4\source\repos\ProjectDiary\ProjectDiary\obj\Debug\ProjectDiary.Registration.resources
+C:\Users\4\source\repos\ProjectDiary\ProjectDiary\obj\Debug\ProjectDiary.Add_Entry.resources
