@@ -132,6 +132,16 @@ ProjectDiary
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:ProjectDiary.My.Resources.Resources.medium_button">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.medium_buttonclicked">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ProjectDiary.My.Resources.Resources.Minimize">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -143,6 +153,11 @@ ProjectDiary
 </summary>
 </member>
 <member name="P:ProjectDiary.My.Resources.Resources.minimize_hover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectDiary.My.Resources.Resources.playingbutton">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
